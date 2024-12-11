@@ -17,7 +17,7 @@ namespace ConsoleApp25
             Console.Write("Введите первую букву: ");
             char letter = Char.ToLower(Console.ReadKey().KeyChar);
             Console.WriteLine();
-            Console.ReadKey();
+            
 
             switch (letter)
             {
@@ -40,6 +40,7 @@ namespace ConsoleApp25
                     Console.WriteLine("Неизвестная буква");
                     break;
             }
+            Console.ReadKey();
         }
     }
 }
