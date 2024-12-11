@@ -17,30 +17,29 @@ namespace ConsoleApp25
             Console.Write("Введите первую букву: ");
             char letter = Char.ToLower(Console.ReadKey().KeyChar);
             Console.WriteLine();
+            Console.ReadKey();
 
             switch (letter)
             {
-                case 'а':
-                    Console.WriteLine("автомобиль");
+                case 'a':
+                    Console.WriteLine("автомобиль, максимальная скорость = 508,73 км/ч");
                     break;
                 case 'в':
-                    Console.WriteLine("велосипед");
+                    Console.WriteLine("велосипед, максимальная скорость = 295,6 км/ч");
                     break;
                 case 'м':
-                    Console.WriteLine("мотоцикл");
+                    Console.WriteLine("мотоцикл, максимальная скорость = 200 км/ч");
                     break;
                 case 'с':
-                    Console.WriteLine("самолет");
+                    Console.WriteLine("самолёт, максимальная скорость = 8200,8 км/ч ");
                     break;
                 case 'п':
-                    Console.WriteLine("поезд");
+                    Console.WriteLine("поезд, максмальная скорость = 574,8 км/ч");
                     break;
                 default:
                     Console.WriteLine("Неизвестная буква");
                     break;
             }
-            Console.ReadKey();
         }
-
     }
 }
